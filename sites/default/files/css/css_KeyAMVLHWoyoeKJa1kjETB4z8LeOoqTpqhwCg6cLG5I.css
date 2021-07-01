@@ -605,7 +605,6 @@ div.tree-child-horizontal {
     background: #F2C99D;
     width: 50%;
     display: inline-block;
-    float: left;
     text-align: center;
     padding: 7px 0px;
 }
@@ -1823,8 +1822,6 @@ footer#themeJJJ .content__secondary .svg-inline--fa {
     position: relative;
     width: 100%;
     padding: 3rem 0;
-    background: ;
-    background-image: ;
     color: #000;
 }
 
@@ -2353,8 +2350,6 @@ html.no-cssgrid .Indgangsvinkel7-6040b6eb08ae5 .entry-focus__block {
     position: relative;
     width: 100%;
     padding: 3rem 0;
-    background: ;
-    background-image: ;
     color: #fff;
 }
 
@@ -2975,7 +2970,6 @@ html.no-cssgrid .Indgangsvinkel7-6040ae8237735 .entry-focus__block {
     width: 100%;
     padding: 3rem 0;
     background: transaparent;
-    background-image: ;
     color: #fff;
 }
 
@@ -3515,7 +3509,6 @@ html.no-cssgrid .Indgangsvinkel7-60409cb3d1094 .entry-focus__block {
     -o-object-fit: cover;
     object-fit: cover;
     opacity: 0.9;
-    user-drag: none;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;
@@ -3628,7 +3621,6 @@ html.no-cssgrid .Indgangsvinkel7-60409cb3d1094 .entry-focus__block {
 
 #ew-header-3-rev3 {
     padding: 0 0;
-    font-size: ;
     font-weight: 700;
     text-transform: uppercase;
     z-index: 999;
@@ -3892,7 +3884,6 @@ html.no-cssgrid .Indgangsvinkel7-60409cb3d1094 .entry-focus__block {
         content: "";
         border: none;
         background-color: #000;
-        vertical-align: 0;
     }
     #ew-header-3-rev3 .dropdown-toggle::after {
         position: absolute;
@@ -3904,7 +3895,6 @@ html.no-cssgrid .Indgangsvinkel7-60409cb3d1094 .entry-focus__block {
         content: "";
         border: none;
         background-color: #000;
-        vertical-align: 0;
         -webkit-transition: all 200ms linear;
         transition: all 200ms linear;
     }
@@ -4017,7 +4007,6 @@ html.no-cssgrid .Indgangsvinkel7-60409cb3d1094 .entry-focus__block {
         content: "";
         border: none;
         background-color: #000;
-        vertical-align: 0;
     }
 }
 
