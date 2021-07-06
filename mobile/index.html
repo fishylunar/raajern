@@ -168,10 +168,10 @@
                 </div>
                 <div class="col-sm-6 col-md-4 item"><i class="fa fa-clock-o icon"></i>
                     <h3 class="name">Udstyr til <br>maskinparken<br></h3>
-                    <p class="description">Tjek gerne MaskinButikken<br></p><a href="www.maskinbutikken.dk">www.maskinbutikken.dk<br></a></div>
+                    <p class="description">Tjek gerne MaskinButikken<br></p><a href="https://www.maskinbutikken.dk">www.maskinbutikken.dk<br></a></div>
                 <div class="col-sm-6 col-md-4 item"><i class="fa fa-clock-o icon"></i>
                     <h3 class="name">Udlejning af maskiner<br></h3>
-                    <p class="description">Tjek gerne LejMa<br></p><a href="www.lejma.dk">www.lejma.dk<br></a></div>
+                    <p class="description">Tjek gerne LejMa<br></p><a href="https://www.lejma.dk">www.lejma.dk<br></a></div>
             </div>
             <!-- End: Features -->
         </div>
@@ -181,15 +181,40 @@
     <div class="footer-basic">
         <footer>
             <!-- Start: Social Icons -->
-            <div class="social"><a href="tel:+4520322553"><i class="material-icons">phone</i></a><a href="mailto:raajern@gmail.com"><i class="material-icons">mail</i></a><a href="www.facebook.com/Raajern-106172618401639"><i class="fab fa-facebook"></i></a></div>
+            <div class="social"><a href="tel:+4520322553"><i class="material-icons">phone</i></a><a href="mailto:raajern@gmail.com"><i class="material-icons">mail</i></a><a href="https://www.facebook.com/Raajern-106172618401639"><i class="fab fa-facebook"></i></a></div>
             <!-- End: Social Icons -->
             <!-- Start: Copyright -->
             <p class="copyright">Raajern © 2021</p>
             <!-- End: Copyright -->
             <!-- Start: Copyright -->
-            <p class="copyright">Desgined by JJayy</p>
-            <!-- End: Copyright -->
-        </footer>
+            <p class="copyright">Desgined by Jayy</p>
+            <!-- End: Copyright --><!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "106172618401639");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/da_DK/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script></footer>
     </div>
     <!-- End: Footer Basic -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
