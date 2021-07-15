@@ -203,7 +203,30 @@
                         <h2 class="text-center"><strong>Raajern anbefaler</strong><br></h2>
                         <p class="text-center"><strong>Virksomheder som Raajern anbefaler</strong><br>God service er garanteret!</p>
                     </div>
-                    <!-- End: Intro --><a href="#"> <img src="assets/img/216409090_653758459351709_5427497913083964598_n.jpg" width="20%"><img src="assets/img/215332888_1551168825215514_2241170868888971265_n.jpg" width="30%"><img src="assets/img/isbachLOGO-1.png" width="30%"></a></div>
+                    <!-- End: Intro --><a><script>
+    // define the elements we want to add listeners
+    
+    // On DOM Loaded
+    document.addEventListener('DOMContentLoaded', function(event) {
+           var maskinbutikken = document.getElementById("maskinbutikken")
+           var lejma = document.getElementById("lejma")
+           var isbach = document.getElementById("isbach")
+    
+           // Add the click listeners
+           maskinbutikken.addEventListener("click", function(){
+               location.href = "https://maskinbutikken.dk"
+           })
+    
+        lejma.addEventListener("click", function(){
+            location.href="https://lejma.dk"
+        })
+    
+        isbach.addEventListener("click", function(){
+            location.href="https://isbach.dk"
+        })
+    })
+
+</script> <img id="maskinbutikken" src="assets/img/216409090_653758459351709_5427497913083964598_n.jpg" width="20%" href="https://maskinbutikken.dk"><img id="lejma" src="assets/img/215332888_1551168825215514_2241170868888971265_n.jpg" width="30%" href="https://lejma.dk"><img id="isbach" src="assets/img/isbachLOGO-1.png" width="30%" href="https://isbach.dk"></a></div>
             </div>
             <!-- End: garden art -->
             <!-- Start: om raajern -->
