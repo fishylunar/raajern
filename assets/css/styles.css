@@ -1,0 +1,14 @@
+body {
+  background-color: #121212;
+  background-image:  linear-gradient(144deg, #121212 26px, transparent 27px), linear-gradient(-34deg, #121212 25px, transparent 26px), linear-gradient(132deg, rgb(0, 0, 0) 26px, transparent 27px), linear-gradient(128deg, rgba(0, 0, 0, 0.7) 26px, transparent 27px), linear-gradient(-41deg, rgb(0, 0, 0) 27px, transparent 28px), linear-gradient(-52deg, rgb(29, 29, 29) 27px, transparent 28px), linear-gradient(-125deg, #121212 26px, transparent 27px), linear-gradient(55deg, #121212 25px, transparent 26px), linear-gradient(-132deg, rgb(0, 0, 0) 26px, transparent 27px), linear-gradient(-141deg, rgb(29, 29, 29, 1) 26px, transparent 27px), linear-gradient(42deg, rgb(0, 0, 0) 27px, transparent 28px), linear-gradient(38deg, rgba(29, 29, 29, 0.5) 27px, transparent 28px);
+  background-size: 100px 100px;
+  background-position: -16px 9px, -13px -11px, -13px 13px, -13px 16px, -13px -11px, -13px -16px, -23px -1px, -3px -1px, -26px -1px, -30px -1px, -2px -1px, 1px -1px;
+  background-repeat: repeat;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: white;
+  background-color: #090909;
+  border: none;
+}
+
